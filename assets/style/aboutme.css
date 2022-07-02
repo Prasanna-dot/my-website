@@ -1,0 +1,189 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body::-webkit-scrollbar{
+    display: none;
+}
+
+.main_section{
+    width: 100%;
+}
+
+nav{
+    position: sticky;
+    top: 0;
+    width: 100%;
+    height: 8vh;
+    display: flex;
+    background-color: #ffff;
+    z-index: 10000;
+}
+
+.logo_div,.menu_div,.btn_div{
+    width: 10%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo_div{
+    width: 10%;
+}
+
+.logo_div h2{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 2vw;
+    cursor: pointer;
+}
+
+.menu_div{
+    width: 70%;
+}
+
+.menu_div ul{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu_div ul li{
+    list-style: none;
+    display: inline;
+    margin-left: 8%;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1vw;
+    cursor: pointer;
+}
+
+.unsel{
+    text-decoration: none;
+    color: #000000;
+}
+
+.btn_div{
+    width: 20%;
+}
+
+.btn_div button{
+    font-family: 'Poppins', sans-serif;
+    padding: 3% 5%;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    background-color: #FFC14C;
+    cursor: pointer;
+}
+
+.sel{
+    text-decoration: none;
+    color: #FFC14C;
+}
+
+.sel_underline{
+    width: 40%;
+    height: 0.3vh;
+    border-radius: 100px;
+    margin-left: 30%;
+    background-color: #FFC14C;
+    transition: all 0.5s;
+}
+
+.menu_highlight{
+    width: 0%;
+    height: 0.3vh;
+    border-radius: 100px;
+    margin-left: 30%;
+    background-color: #FFC14C;
+    transition: width 0.5s;
+}
+
+.menu_div ul li:hover .menu_highlight,.menu_div ul li:hover .unsel{
+    width: 40%;
+    color: #FFC14C;
+    transition: width 0.5s;
+}
+
+.story_div, .skills_div, .certifi_div{
+   display: flex;
+   width: 100%;
+}
+
+.story, .skills, .certifi{
+    position: sticky;
+    top: 10%;
+    width: 30%;
+    height: 100%;
+    padding: 2% 3.5%;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.7vw;
+}
+
+.story_con, .skills_con, .certifi_con{
+    width: 70%;
+    padding: 5% 3.5%;
+    font-family: 'Poppins', sans-serif;
+}
+
+.story_con{
+    margin: 0% 1%;
+    font-size: 1vw;
+}
+
+.certifi_con img{
+    padding: 0.5%;
+}
+
+.skills_con button{
+   padding: 1% 3%;
+   margin: 0.5%;
+   border: none;
+   outline: none;
+   border-radius: 5px;
+   font-family: 'Poppins', sans-serif;
+   color: #fff;
+}
+
+.html {
+    background-image: linear-gradient(to right, #fd7e14, #ff9742);
+}
+
+.css {
+    background-image: linear-gradient(to right, #0d6efd, #61a0ff);
+}
+
+.js {
+    background-image: linear-gradient(to right, #ffc107, #fbd666);
+}
+
+.boostrap {
+    background-image: linear-gradient(to right, #6610f2, #a36aff);
+}
+
+.java {
+    background-image: linear-gradient(to right, #60a0ff, #a6c9ff);
+}
+
+.mysql {
+    background-image: linear-gradient(to right, #0dcaf0, #c3f5ff);
+}
+
+.ror {
+    background-image: linear-gradient(to right, #dc3545, #c75f6a);
+}
+
+.photo {
+    background-image: linear-gradient(to right, #adb5bd, #7c7f82);
+}
+
+.pp {
+    background-image: linear-gradient(to right, #6f42c1, #8565c1);
+}
+
+.ps {
+    background-image: linear-gradient(to right, #0d6efd, #a2c2f2);
+}
