@@ -55,8 +55,9 @@ nav {
   color: #000000;
 }
 
-.btn_div {
+.btn_div{
   width: 20%;
+  font-size: 1vw;
 }
 
 .btn_div button {

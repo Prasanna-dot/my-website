@@ -62,6 +62,7 @@ nav{
 
 .btn_div{
     width: 20%;
+    font-size: 1vw;
 }
 
 .btn_div button{
@@ -103,6 +104,40 @@ nav{
     transition: width 0.5s;
 }
 
+.row .col-md{
+  margin: 1% 0%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  border-radius: 1000px;
+}
+
+.col-md button{
+  position: absolute;
+  padding: 0.5% 2%;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  background-color: #FFC14C;
+  font-family: 'Poppins', sans-serif;
+  opacity: 0;
+  z-index: 1000;
+}
+
+
+.col-md:hover button{
+  opacity: 1;
+}
+
+.col-md:hover img{
+  opacity: 0.5;
+}
+
+.col-md img{
+   width: 100%;
+   overflow: hidden;
+}
 
 @media only screen and (max-width: 768px) {
     nav {
