@@ -81,6 +81,10 @@ nav{
     color: #FFC14C;
 }
 
+.sel:hover{
+    color: #ffc14c;
+  }
+
 .sel_underline{
     width: 40%;
     height: 0.3vh;
@@ -180,7 +184,6 @@ nav{
 .ps {
     background-image: linear-gradient(to right, #0d6efd, #a2c2f2);
 }
-
 
 @media only screen and (max-width: 768px) {
     nav {

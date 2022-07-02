@@ -121,6 +121,10 @@ nav {
   color: #ffc14c;
 }
 
+.sel:hover{
+  color: #ffc14c;
+}
+
 .sel_underline {
   width: 40%;
   height: 0.3vh;
