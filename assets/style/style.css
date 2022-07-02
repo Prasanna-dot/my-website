@@ -265,11 +265,9 @@ footer {
 
   .text-area {
     width: 100%;
+    z-index: 2000;
   }
 
-  .text-area h2 {
-    margin-bottom: 7%;
-  }
 
   .text-area a button {
     margin-bottom: 40%;
