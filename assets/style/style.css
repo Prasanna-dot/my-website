@@ -75,6 +75,7 @@ nav {
 }
 
 .col-md {
+  position: relative;
   height: 84vh;
   display: flex;
   justify-content: center;
@@ -196,6 +197,120 @@ footer {
   color: #000000;
   margin: 2% 5%;
 }
+
+.close{
+  height: 50px;
+  z-index: 220000000;
+}
+
+.close button{
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  font-size: 1.2vw;
+  border: none;
+  outline: none;
+  background-color: transparent;
+}
+
+.message{
+  background-color: rgb(245, 245, 245);
+  position: absolute;
+  top: 8%;
+  right: 5%;
+  width: 25%;
+  height: 60vh;
+  z-index: 20000000;
+  display: none;
+}
+
+.msgg_div{
+  width: 100%;
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+.msg_div{
+  width: 100%;
+  position: absolute;
+  bottom: 10%;
+  right: 0;
+  max-height: 53.5vh;
+  overflow-y: auto;
+}
+
+.msg_div::-webkit-scrollbar{
+  display: none;
+}
+
+.msg_div div{
+  position: relative;
+  width: 100%;
+  height: 6vh;
+}
+
+.msg_div span{
+  border-radius: 10px;
+  padding: 2% 2%;
+  margin: 1% 2%;
+  font-family: "Poppins", sans-serif;
+}
+
+.left{
+  position: absolute;
+  left: 0;
+  background-color: #ffc14c;
+}
+
+.right{
+  position: absolute;
+  right: 0;
+  background-color: #fff;
+}
+
+.sub_div{
+  width: 100%;
+  height: 6vh;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffc14c;
+}
+
+.sub_div form{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#chat-msg{
+  font-family: "Poppins", sans-serif;
+  padding: 1% 5%;
+  border: none;
+  outline: none;
+  border-radius: 20px 0px 0px 20px;
+}
+
+.sub_div form button{
+  font-family: "Poppins", sans-serif;
+  padding: 1% 5%;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: 0px 20px 20px 0px;
+}
+
 
 @media only screen and (max-width: 768px) {
   nav {
@@ -342,5 +457,9 @@ footer {
     font-size: 4vw;
     color: #000000;
     margin: 2% 5%;
+  }
+
+  .message{
+    display: none;
   }
 }

@@ -121,7 +121,7 @@ nav{
 
 .story_con, .skills_con, .certifi_con{
     width: 70%;
-    padding: 5% 3.5%;
+    padding: 2% 3.5%;
     font-family: 'Poppins', sans-serif;
 }
 
@@ -166,7 +166,7 @@ nav{
 }
 
 .mysql {
-    background-image: linear-gradient(to right, #0dcaf0, #c3f5ff);
+    background-image: linear-gradient(to right, #0dcaf0, #87cfdd);
 }
 
 .ror {
@@ -174,7 +174,7 @@ nav{
 }
 
 .photo {
-    background-image: linear-gradient(to right, #adb5bd, #7c7f82);
+    background-image: linear-gradient(to right, #6badef, #5581ae);
 }
 
 .pp {
@@ -182,7 +182,7 @@ nav{
 }
 
 .ps {
-    background-image: linear-gradient(to right, #0d6efd, #a2c2f2);
+    background-image: linear-gradient(to right, #0d6efd, #5788d0);
 }
 
 @media only screen and (max-width: 768px) {
