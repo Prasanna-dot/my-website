@@ -191,3 +191,7 @@ footer{
     backdrop-filter: blur(40px);
     border-radius: 100px;
 }
+
+.social_div ul li a{
+    color: #000000;
+}
