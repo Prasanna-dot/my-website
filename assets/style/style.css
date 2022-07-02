@@ -252,6 +252,7 @@ footer {
 
   .col-md:nth-child(1) {
     height: 40vh;
+    z-index: 10000;
   }
 
   .col-md:nth-child(2) {
@@ -268,6 +269,7 @@ footer {
 
   .text-area a button {
     margin-bottom: 40%;
+    z-index: 10000;
   }
 
   .col-md h2 {
@@ -285,7 +287,6 @@ footer {
   .col-md img {
     margin-left: 10%;
     width: 200%;
-    transform: rotate(5deg);
   }
 
   .col-md button {
