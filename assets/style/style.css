@@ -201,20 +201,29 @@ footer{
         width: 100%;
     }
 
+    .text-area h2{
+        margin-bottom: 7%;
+    }
+
+    .text-area a button{
+        margin-bottom: 18%;
+    }
+
     .col-md h2{
-        width: 100%;
-        font-size: 2.5vw;
+        width: 90%;
+        font-size: 3.5vw;
     }
     
     .col-md h2 span{
         font-family: 'Josefin Sans', sans-serif;
         font-size: 5.5vw;
         color: #FFC14C;
+        margin-bottom: 10%;
     }
 
     .col-md img{
         margin-left: 10%;
-        width: 180%;
+        width: 200%;
         transform: rotate(5deg);
     }
 
