@@ -197,6 +197,7 @@ footer {
     width: 100%;
     height: 10vh;
     display: flex;
+    background-color: transparent;
   }
 
   .logo_div,
