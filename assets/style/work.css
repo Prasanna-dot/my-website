@@ -73,14 +73,18 @@ nav {
   font-size: 1vw;
 }
 
-.btn_div button {
+.btn_div a{
   font-family: "Poppins", sans-serif;
   padding: 3% 5%;
   border-radius: 5px;
+  background-color: #ffc14c;
+}
+
+.btn_div a button{
   border: none;
   outline: none;
-  background-color: #ffc14c;
   cursor: pointer;
+  background-color: transparent;
 }
 
 .sel {

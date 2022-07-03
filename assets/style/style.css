@@ -64,15 +64,20 @@ nav {
   font-size: 1vw;
 }
 
-.btn_div button {
+.btn_div a{
   font-family: "Poppins", sans-serif;
   padding: 3% 5%;
   border-radius: 5px;
+  background-color: #ffc14c;
+}
+
+.btn_div a button{
   border: none;
   outline: none;
-  background-color: #ffc14c;
   cursor: pointer;
+  background-color: transparent;
 }
+
 
 .container-fluid {
   height: 84vh;
@@ -289,6 +294,12 @@ footer {
   border-radius: 5px;
 }
 
+/* .btn_div_footer{
+  display: none;
+} */
+
+
+
 
 @media only screen and (max-width: 768px) {
   nav {
@@ -437,7 +448,23 @@ footer {
     margin: 2% 5%;
   }
 
-  .message{
-    display: none;
+  .btn_div_footer{
+    position: absolute;
+    right: 15%;
+    bottom: 35%;
+  }
+
+  .btn_div_footer a{
+    font-family: "Poppins", sans-serif;
+    padding: 100% 150%;
+    border-radius: 5px;
+    background-color: #ffc14c;
+  }
+  
+  .btn_div_footer a button{
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color: transparent;
   }
 }
