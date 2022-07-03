@@ -294,11 +294,12 @@ footer {
   border-radius: 5px;
 }
 
-/* .btn_div_footer{
-  display: none;
-} */
 
-
+@media only screen and (min-width: 768px) {
+  .btn_div_footer{
+    display: none;
+  }
+}
 
 
 @media only screen and (max-width: 768px) {
@@ -418,10 +419,20 @@ footer {
     height: 5vh;
     display: inline;
     z-index: 2000;
+    overflow: hidden;
+  }
+
+  .foo{
+    position: relative;
+    width: 100%;
+    height: 100%;
   }
 
   .social_div {
-    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 50%;
     height: 100%;
     background-image: linear-gradient(
       to right,
@@ -450,21 +461,32 @@ footer {
 
   .btn_div_footer{
     position: absolute;
-    right: 15%;
-    bottom: 35%;
+    bottom: 0;
+    right: 0;
+    height: 100%;
+    width: 20%;
   }
 
   .btn_div_footer a{
     font-family: "Poppins", sans-serif;
-    padding: 100% 150%;
+    height: 100%;
+    width: 100%;
     border-radius: 5px;
-    background-color: #ffc14c;
   }
   
   .btn_div_footer a button{
+    height: 100%;
+    width: 100%;
     border: none;
     outline: none;
     cursor: pointer;
     background-color: transparent;
+    color: #000000;
+    background-image: linear-gradient(
+      to right,
+      rgb(255, 255, 255),
+      rgb(232, 232, 232)
+    );
+    border-radius: 100px 0px 0px 100px;
   }
 }
