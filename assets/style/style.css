@@ -23,6 +23,10 @@ nav {
 .logo_div {
   width: 10%;
 }
+.logo_div a{
+  text-decoration: none;
+  color: #000000;
+}
 
 .logo_div h2 {
   font-family: "Josefin Sans", sans-serif;
@@ -199,14 +203,15 @@ footer {
 }
 
 .close{
-  height: 50px;
+  position: absolute;
+  top: 0;
+  right: 2%;
+  height: 8vh;
   z-index: 220000000;
+  margin-bottom: 2%;
 }
 
 .close button{
-  position: absolute;
-  top: 0;
-  right: 0;
   width: 50px;
   height: 50px;
   display: flex;
@@ -224,74 +229,38 @@ footer {
   position: absolute;
   top: 8%;
   right: 5%;
-  width: 25%;
-  height: 60vh;
+  width: 30%;
+  height: 35vh;
   z-index: 20000000;
   display: none;
 }
 
-.msgg_div{
-  width: 100%;
-  height: 100%;
-  position: relative;
-  overflow: hidden;
-}
-
-.msg_div{
-  width: 100%;
-  position: absolute;
-  bottom: 10%;
-  right: 0;
-  max-height: 53.5vh;
-  overflow-y: auto;
-}
-
-.msg_div::-webkit-scrollbar{
-  display: none;
-}
-
-.msg_div div{
-  position: relative;
-  width: 100%;
-  height: 6vh;
-}
-
-.msg_div span{
-  border-radius: 10px;
-  padding: 2% 2%;
-  margin: 1% 2%;
-  font-family: "Poppins", sans-serif;
-}
-
-.left{
-  position: absolute;
-  left: 0;
-  background-color: #ffc14c;
-}
-
-.right{
-  position: absolute;
-  right: 0;
-  background-color: #fff;
-}
-
 .sub_div{
   width: 100%;
-  height: 6vh;
+  height: 100%;
   position: absolute;
   bottom: 0;
   right: 0;
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #ffc14c;
+  background-color: #ededed;
 }
 
 .sub_div form{
   width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+}
+
+#email_input{
+  font-family: "Poppins", sans-serif;
+  padding: 1% 5%;
+  border: none;
+  outline: none;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  margin-bottom: 2%;
 }
 
 #chat-msg{
@@ -299,7 +268,12 @@ footer {
   padding: 1% 5%;
   border: none;
   outline: none;
-  border-radius: 20px 0px 0px 20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  height: 15vh;
+  margin-bottom: 2%;
 }
 
 .sub_div form button{
@@ -308,7 +282,11 @@ footer {
   border: none;
   outline: none;
   cursor: pointer;
-  border-radius: 0px 20px 20px 0px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #ffc14c;
+  border-radius: 5px;
 }
 
 

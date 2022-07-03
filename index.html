@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Prasanna venkatesh</title>
 
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&family=Poppins:wght@600&display=swap"
@@ -28,117 +29,21 @@
                 <i class="fa-solid fa-xmark"></i>
             </button>
         </div>
-        <div class="msgg_div">
-            <div class="msg_div" id="msg_div">
-                <div>
-                    <span class="left">Prasanna</span>
-                </div>
-                <div>
-                    <span class="right">Hello</span>
-                </div>
-                <div>
-                    <span class="left">Prasanna</span>
-                </div>
-                <div>
-                    <span class="right">Hello</span>
-                </div>
-                <div>
-                    <span class="left">Prasanna</span>
-                </div>
-                <div>
-                    <span class="right">Hello</span>
-                </div>
-                <div>
-                    <span class="left">Prasanna</span>
-                </div>
-                <div>
-                    <span class="right">Hello</span>
-                </div>
-                <div>
-                    <span class="left">Prasanna</span>
-                </div>
-                <div>
-                    <span class="right">Hello</span>
-                </div>
-                <div>
-                    <span class="left">Prasanna</span>
-                </div>
-                <div>
-                    <span class="right">Hello</span>
-                </div>
-                <div>
-                    <span class="left">Prasanna</span>
-                </div>
-                <div>
-                    <span class="right">Hello</span>
-                </div>
-                <div>
-                    <span class="left">Prasanna</span>
-                </div>
-                <div>
-                    <span class="right">Hello</span>
-                </div>
-                <div>
-                    <span class="left">Prasanna</span>
-                </div>
-                <div>
-                    <span class="right">Hello</span>
-                </div>
-                <div>
-                    <span class="left">Prasanna</span>
-                </div>
-                <div>
-                    <span class="right">Hello</span>
-                </div>
-                <div>
-                    <span class="left">Prasanna</span>
-                </div>
-                <div>
-                    <span class="right">Hello</span>
-                </div>
-                <div>
-                    <span class="left">Prasanna</span>
-                </div>
-                <div>
-                    <span class="right">Hello</span>
-                </div>
-                <div>
-                    <span class="left">Prasanna</span>
-                </div>
-                <div>
-                    <span class="right">Hello</span>
-                </div>
-                <div>
-                    <span class="left">Prasanna</span>
-                </div>
-                <div>
-                    <span class="right">Hello</span>
-                </div>
-                <div>
-                    <span class="left">Prasanna</span>
-                </div>
-                <div>
-                    <span class="right">Hello</span>
-                </div>
-                <div>
-                    <span class="left">Prasanna</span>
-                </div>
-                <div>
-                    <span class="right">Hello</span>
-                </div>
-            </div>
-            <div class="sub_div" id="sub_div">
-               <form>
-                 <input type="text" id="chat-msg" placeholder="Text..">
-                 <button>Send</button>
-               </form>
-            </div>
+        <div class="sub_div" id="sub_div">
+            <form onsubmit="sendEmail();">
+                <input type="email" id="email_input" placeholder="Email.." required>
+                <input type="text" id="chat-msg" placeholder="Message(optional)">
+                <button type="submit">Send</button>
+            </form>
         </div>
+    </div>
     </div>
 
     <nav>
         <div class="logo_div">
-            <h2>PV.</h2>
+            <a href="./index.html">
+                <h2>PV.</h2>
+            </a>
         </div>
         <div class="menu_div">
             <ul>
@@ -155,9 +60,6 @@
                     <div class="menu_highlight"></div>
                 </li>
             </ul>
-        </div>
-        <div class="btn_div">
-            <button onclick="chatbot()">Let's talk</button>
         </div>
     </nav>
 
